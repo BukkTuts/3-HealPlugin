@@ -32,8 +32,8 @@ public class HealPlugin extends JavaPlugin {
      * to see if they typed a specific command.  We don't do that in this example because
      * we only have one command registered, so there's no need to check the name.
      * <p>
-     * The third parameter, the String that we call the label, is the wrod that the user
-     * literally typed to use our command.  If the server is using bukkit aliasing it is
+     * The third parameter, the String that we call the label, is the word that the user
+     * literally typed to use our command.  If the server is using Bukkit aliasing it is
      * possible for this word to not be our command, so it should only be used when giving
      * a response to the user.  In other words, instead of telling them to type "/heal", we
      * should tell them to type "/"+label as to respect whatever bukkit.yml aliases that the
