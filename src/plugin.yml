@@ -1,0 +1,7 @@
+main: com.bukkthat.healplugin.HealPlugin
+version: 1.0.0
+name: HealPlugin
+
+commands:
+  heal:
+    description: Heals yourself or another player.
