@@ -6,3 +6,15 @@ commands:
   heal:
     description: Heals yourself or another player.
     usage: /<command> [player to heal]
+permissions:
+  heal.*:
+    description: Allows you to use all HealPlugin commands.
+    children:
+      heal.self: true
+      heal.other: true
+  heal.other:
+    description: Allows you to heal other players.
+  heal.self:
+    description: Allows you to heal yourself.
+    
+    
